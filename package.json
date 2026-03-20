@@ -1,0 +1,22 @@
+{
+    "name": "terminal-context",
+    "version": "1.0.0",
+    "description": "Windows terminal launcher from disk mappings (SSH/local), hotkeys, context menu",
+    "type": "module",
+    "bin": {
+        "terminal-context": "./components/exec-terminal.mjs"
+    },
+    "scripts": {
+        "install": "powershell -NoProfile -ExecutionPolicy Bypass -File ./installer.ps1",
+        "uninstall": "powershell -NoProfile -ExecutionPolicy Bypass -File ./installer.ps1 -Uninstall",
+        "test": "node tests/run-tests.mjs"
+    },
+    "engines": {
+        "node": ">=24"
+    },
+    "dependencies": {
+        "ahknodejs": "^2.0.0",
+        "clipboardy": "^5.3.1",
+        "ssh2": "^1.17.0"
+    }
+}

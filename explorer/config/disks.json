@@ -1,0 +1,9 @@
+{
+    "C": ["pwsh", "Windows", "U2RE@192.168.0.110", "C:/"],
+    "H": ["bash", "Linux", "u2re-dev@192.168.0.200", "/home/u2re-dev/"],
+    "V": ["bash", "Linux", "root@45.150.9.153", "/"],
+    "N": ["bash", "Linux", "u2re-dev@192.168.0.208", "/home/u2re-dev/"],
+    "Y": ["bash", "Linux", "root@45.147.121.152", "/"],
+    "X": ["bash", "Linux", "root@45.147.121.152", "/"],
+    "Z": ["bash", "Linux", "root@192.168.0.200", "/"]
+}

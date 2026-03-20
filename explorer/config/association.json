@@ -1,0 +1,19 @@
+{
+  ".ps1": { "executor": "pwsh", "os": "Windows" },
+  ".psm1": { "executor": "pwsh", "os": "Windows" },
+  ".cmd": { "executor": "cmd", "os": "Windows" },
+  ".bat": { "executor": "cmd", "os": "Windows" },
+  ".js": { "executor": "node", "os": "Local" },
+  ".mjs": { "executor": "node", "os": "Local" },
+  ".cjs": { "executor": "node", "os": "Local" },
+  ".ts": { "executor": "tsx", "os": "Local" },
+  ".tsx": { "executor": "tsx", "os": "Local" },
+  ".sh": { "executor": "bash", "os": "Local" },
+  ".bash": { "executor": "bash", "os": "Local" },
+  ".py": { "executor": "python3", "os": "Local" },
+  ".pyw": { "executor": "python3", "os": "Local" },
+  ".rb": { "executor": "ruby", "os": "Local" },
+  ".pl": { "executor": "perl", "os": "Local" },
+  ".php": { "executor": "php", "os": "Local" },
+  ".deb": { "executor": "deb", "os": "Local" }
+}
